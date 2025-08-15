@@ -5,7 +5,7 @@
 }
 body{
 
-    background-color: bisque;
+    background-color: rgb(250, 86, 187);
 }
 
 #container{
@@ -16,9 +16,43 @@ body{
 
 #header{
     height: 110px;
-    background-color: aqua;
-    color:aqua
-    text-aling: center
-    like-height: 100px;
+    background-color: rgb(21, 156, 173);
+    color:rgb(0, 0, 0);
+    text-align: center;
+    line-height: 100px;
 
+}
+
+#menu{
+    background-color: rgb(175, 247, 223);
+    color: brown;
+    height: 50px;
+    border-bottom: 4xp solid black;
+
+}
+
+menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid black ;
+
+}
+
+#menu a{
+    display: block;
+    color: rgb(36, 20, 255);
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+menu a:hover{
+    background-color: rgb(207, 243, 76) ;
 }
