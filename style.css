@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+
+    background-color: bisque;
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+#header{
+    height: 110px;
+    background-color: aqua;
+    color:aqua
+    text-aling: center
+    like-height: 100px;
+
+}
