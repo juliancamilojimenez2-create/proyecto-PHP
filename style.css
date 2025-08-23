@@ -66,5 +66,23 @@ padding-right: 12px;
     background-color: chartreuse;
 }
 
+#content{
+
+    margin: 0px auto;
+ 
+    background:white
+    ;
+}
+/*barra lateral*/
+#lateral{
+    width: 20%;
+    border: 1px solid brown;
+}
+
+#central{
+    width: 80%;
+    border: 1px solid burlywood;
+
+}
 
 
