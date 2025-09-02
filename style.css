@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:rgb(147, 27, 27); /* Fondo gris muy suave */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor principal */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    background: #fff;
+}
+
+/* Encabezado */
+#header {
+    height: 150px;
+    background-color: #bd372d; /* Azul oscuro elegante */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 150px;
+}
+
+/* Logo */
+#logo {
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img {
+    float: left;
+    height: 110px;
+}
+
+/* Menú de navegación */
+#menu {
+    background-color: #187052; /* Azul intermedio */
+    color: white;
+    height: 50px;
+    border-bottom: 4px solid  #187052; /* Acento rojo */
+    overflow: hidden;
+}
+
+#menu ul {
+     list-style: none;
+      margin-left:25px;
+    }
+
+#menu ul li {
+    float: left;
+    line-height: 50px;
+    border-right: 1px solid #000000;
+}
+
+#menu a {
+    display: block;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    padding: 0 12px;
+    transition: all 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #cdca12; /* Azul más claro al pasar */
+    color: #000000;
+}
+
+/* Contenido principal */
+#content {
+    margin: 0 auto;
+    background: #cfcf0d;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* Sidebar */
+#lateral {
+    width: 19%;
+    min-height: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#lateral .block_aside {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid #fffffc;
+    background: #f5f0f0;
+}
+
+#lateral h3 {
+    display: block;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 95%;
+    margin: 5px 0;
+    border: 1px solid #000000;
+    background: #fcfeff;
+    padding: 8px;
+    color: #000000;
+    border-radius: 3px;
+    transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: 1px solid #000000;
+    background: #ffffff;
+    outline: none;
+}
+
+/* Botones */
+input[type="submit"],
+input[type="button"],
+.button {
+    display: block;
+    border-radius: 3px;
+    padding: 8px 12px;
+    background: #12662b;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: #a43535;
+}
+
+/* Contenido central */
+#central {
+    width: 70%;
+    min-height: 600px;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    padding: 20px;
+    background: #fdfdfd;
+    box-shadow: -5px -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+#central h1 {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.product {
+    width: 30%;
+    float: left;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.product img{
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+}
+
+.product a:hover{
+    color: rgb(255, 251, 0);
+    
+}
+
+#footer{
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(147, 27, 27);
+    color: white;
+    border-top: 5px solid rgb(147, 27, 27);
+
+}
