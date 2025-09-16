@@ -2,10 +2,11 @@
 
 require_once 'config/database.php';
 
+
 class Usuario{
 public $db;
 
-public function__construc(){
+public function __construc(){
     $this->db = database::conectar();
 }
 
@@ -84,6 +85,11 @@ function getId_usuario(){
 
      function setImagen($imagen){
          $this->imagen = $imagen;
+   
+    }
+
+    public function conseguirTodos(){
+        echo "IMPRIMIENDO TODOS LOS USUARIOS...";
 
     }
 
